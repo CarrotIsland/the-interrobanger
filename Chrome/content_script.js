@@ -12,6 +12,8 @@ function walk(node)
 	switch ( node.nodeType )  
 	{
 		case 1:  // Element
+      if(node.value !== undefined)
+        node.value = node.value.replace(/(((\?+!+)|(!+\?+))[\?!]*)+/g, "‽");
 		case 9:  // Document
 		case 11: // Document fragment
 			child = node.firstChild;

@@ -1,5 +1,4 @@
-(function() {
-
+window.addEventListener('load', function(event) {
     function walk(node) 
     {
       	// I stole this whole thing from:
@@ -40,8 +39,4 @@
       textNode.nodeValue = v;
     }
 
-    window.addEventListener('DOMContentLoaded', function() {
-        walk(document.body);
-    }, false);
-
-}());
+}, false);

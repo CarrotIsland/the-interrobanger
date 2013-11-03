@@ -34,9 +34,6 @@ function handleText(textNode)
         var v = textNode.nodeValue;
 
         v = v.replace(/(((\?+!+)|(!+\?+))[\?!]*)+/g, "‽");
-        
-        //  /(\?+!+)*(!+\?+)*/
-        //  /[((\?!)+|(!\?)+)+]/g
 
         textNode.nodeValue = v;
 }

@@ -1,27 +1,27 @@
 <?xml version="1.0"?>
 
-<RDF xmlns="http://www.w3.org/1999/02/22-RDF-syntax-ns#"
+<RDF:RDF xmlns="http://www.w3.org/1999/02/22-RDF-syntax-ns#"
      xmlns:em="http://www.mozilla.org/2004/em-RDF#">
 
-        <Description about="urn:mozilla:install-manifest">
-		<em:id>interrobang</em:id>
+        <RDF:Description about="urn:mozilla:install-manifest">
+		<em:id>the-interrobanger</em:id>
 
-		<em:name>Interrobang it!</em:name>
+		<em:name>The Interrobanger</em:name>
 		<em:version>1.0</em:version>
 		<em:type>2</em:type>
 		<em:creator>Nicolas La Roux</em:creator>
                 <em:developer>John Paul Welsh</em:developer>
 
-		<em:description>Replace all combinations of ! and ? with an interrobang.</em:description>
-		<em:homepageURL>http://www.github.com/larouxn/</em:homepageURL>
+		<em:description>Replace all instances of !? and ?! with an interrobang (‽).</em:description>
+		<em:homepageURL>http://www.github.com/larouxn/the-interrobanger/Firefox/</em:homepageURL>
 
 		<em:targetApplication>
 
-			<Description>
+			<RDF:Description>
 				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
 				<em:minVersion>2.0</em:minVersion>
 				<em:maxVersion>999.*</em:maxVersion>
-			</Description>
+			</RDF:Description>
 		</em:targetApplication>
-	</Description>
-</RDF>
+	</RDF:Description>
+</RDF:RDF>

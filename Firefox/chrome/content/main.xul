@@ -2,7 +2,8 @@
 
 <?xml-stylesheet type="text/css" href="chrome/global/skin/" ?>
 
-<overlay id="cv-pls-browser-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-  <script type="text/javascript" src="chrome://interrobang/content/interrobang.js" />
-</overlay>
+<!DOCTYPE overlay SYSTEM "chrome://the-interrobanger/locale/cv-pls.dtd">
 
+<overlay id="cv-pls-browser-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script type="text/javascript" src="chrome://the-interrobanger/content/the-interrobanger.js" />
+</overlay>

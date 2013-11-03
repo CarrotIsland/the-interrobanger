@@ -2,7 +2,9 @@ walk(document.body);
 
 function walk(node) 
 {
-	// I stole this function from here:
+	// I stole this whole thing from:
+	// http://is.gd/WHhTDE
+	// The original creator stole this function from here:
 	// http://is.gd/mwZp7E
 	
 	var child, next;
@@ -29,22 +31,10 @@ function walk(node)
 
 function handleText(textNode) 
 {
-	var chars = {
-        't' : "m",
-        'c' : "b",
-        'T' : "M",
-        'C' : "B"
-        };
-	
-	var v = textNode.nodeValue;
+        var v = textNode.nodeValue;
 
-	v = v.replace(/\b(t)he(\s+)(c)loud\b/ig, function(match, t, ws, c) {
+        v = v.replace(/((\?!)+|(!\?)+)+/, "‽");
 
-	    return chars[t] + "y" + ws + chars[c] + "utt";
-
-	});
-
-	textNode.nodeValue = v;
+        textNode.nodeValue = v;
 }
-
 

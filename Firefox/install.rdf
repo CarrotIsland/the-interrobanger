@@ -1,27 +1,30 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 
-<RDF:RDF xmlns="http://www.w3.org/1999/02/22-RDF-syntax-ns#"
-     xmlns:em="http://www.mozilla.org/2004/em-RDF#">
+<RDF:RDF xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <RDF:Description about="urn:mozilla:install-manifest">
 
-        <RDF:Description about="urn:mozilla:install-manifest">
-		<em:id>the-interrobanger</em:id>
+    <!-- GUID and type -->
+    <em:id>the-interrobanger@github.com</em:id>
+    <em:type>2</em:type>
 
-		<em:name>The Interrobanger</em:name>
-		<em:version>1.0</em:version>
-		<em:type>2</em:type>
-		<em:creator>Nicolas La Roux</em:creator>
-                <em:developer>John Paul Welsh</em:developer>
+    <!-- Extension details -->
+    <em:name>The Interrobanger</em:name>
+    <em:description>Replaces !? or ?! with an interrobang.</em:description>
+    <em:creator>Nicolas La Roux</em:creator>
+    <em:developer>John Paul Welsh</em:developer>
+    <em:homepageURL>https://github.com/larouxn/the-interrobanger/</em:homepageURL>
 
-		<em:description>Replace all instances of !? and ?! with an interrobang (‽).</em:description>
-		<em:homepageURL>http://www.github.com/larouxn/the-interrobanger/Firefox/</em:homepageURL>
+    <!-- Current version -->
+    <em:version>1.0</em:version>
 
-		<em:targetApplication>
+    <!-- Firefox meta info -->
+    <em:targetApplication>
+      <RDF:Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>4.0</em:minVersion>
+        <em:maxVersion>999.*</em:maxVersion>
+      </RDF:Description>
+    </em:targetApplication>
 
-			<RDF:Description>
-				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
-				<em:minVersion>2.0</em:minVersion>
-				<em:maxVersion>999.*</em:maxVersion>
-			</RDF:Description>
-		</em:targetApplication>
-	</RDF:Description>
+  </RDF:Description>
 </RDF:RDF>

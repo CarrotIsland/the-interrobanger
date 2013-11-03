@@ -10,12 +10,11 @@
     
         switch ( node.nodeType ) {
             case 1:  // Element
-                if(node.value !== undefined)
-                    node.value = node.value.replace(/(((\?+!+)|(!+\?+))[\?!]*)+/g, "‽");
             case 9:  // Document
             case 11: // Document fragment
                 child = node.firstChild;
-                while ( child ) {
+                while ( child ) 
+                {
                     next = child.nextSibling;
                     walk(child);
                     child = next;
@@ -31,7 +30,7 @@
     function handleText(textNode) {
         var v = textNode.nodeValue;
     
-        v = v.replace(/(((\?+!+)|(!+\?+))[\?!]*)+/g, "‽");
+        v = v.replace();
     
         textNode.nodeValue = v;
     }

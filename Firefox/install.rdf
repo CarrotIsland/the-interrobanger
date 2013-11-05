@@ -12,7 +12,7 @@
     <em:description>Replaces !? or ?! with an interrobang.</em:description>
     <em:creator>Nicolas La Roux</em:creator>
     <em:developer>John Paul Welsh</em:developer>
-    <em:homepageURL>https://github.com/larouxn/the-interrobanger/</em:homepageURL>
+    <em:homepageURL>https://github.com/carrotisland/the-interrobanger/</em:homepageURL>
 
     <!-- Current version -->
     <em:version>1.0</em:version>

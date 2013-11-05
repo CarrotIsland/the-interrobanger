@@ -1,0 +1,12 @@
+#the-interrobanger-toolbar-button {
+	list-style-image: URL("chrome://the-interrobanger/skin/icon.png");
+}
+
+#the-interrobanger-status-bar-icon {
+	width: 83px;
+	margin: 0 5px;
+}
+
+.the-interrobanger-selected {
+	outline: 2px solid red !important;
+}

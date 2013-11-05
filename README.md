@@ -4,7 +4,7 @@ The Interrobanger
 Cross-Browser extension that replaces occurrences of '?!' and '!?' with an interrobang.
 
 - [Chrome](https://github.com/larouxn/the-interrobanger/blob/master/Chrome/Chrome.crx?raw=true)
-- [Firefox](https://github.com/larouxn/the-interrobanger/blob/master/Firefox/the-interrobanger.xpi?raw=true)
+- [Firefox](https://github.com/larouxn/the-interrobanger/blob/master/Firefox/Firefox.xpi?raw=true)
 - [Opera](https://github.com/larouxn/the-interrobanger/blob/master/Opera/Opera.nex?raw=true)
 
 Installation

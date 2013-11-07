@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Carrot Island</string>
+	<key>Builder Version</key>
+	<string>8537.71</string>
+	<key>CFBundleDisplayName</key>
+	<string>The Interrobanger</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.carrotisland.the-interrobanger</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>The Interrobanger</string>
+				<key>Image</key>
+				<string>icon.png</string>
+				<key>Label</key>
+				<string>The Interrobanger</string>
+				<key>Tool Tip</key>
+				<string>The Interrobanger</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>content_script.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Cross-Browser extension that replaces occurrences of '?!' and '!?' with an interrobang.</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>http://carrotisland.github.io/the-interrobanger/</string>
+</dict>
+</plist>

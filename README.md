@@ -17,3 +17,9 @@ Installation
 - In Firefox, choose Tools > Add-ons. Drag Firefox.xpi into the page that appears. Click restart at prompt.
 - In Opera, choose Window > Extensions. Drag Opera.nex into the page that appears.
 - In Safari, choose Safari > Preferences. Go to the extensions tab and drag Safari.safariextz into the page that appears.
+
+Notice
+------------
+- We are aware this extension will not replace punctation on pages that load dynamically, though AJAX.
+- It will only work correctly on static pages.
+- This, as far as we know, is a limitation of extensions. Sorry!

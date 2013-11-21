@@ -22,4 +22,4 @@ Notice
 ------------
 - We are aware this extension will not replace punctation on pages that load dynamically, though AJAX.
 - It will only work correctly on static pages.
-- This, as far as we know, is a limitation of extensions. Sorry!
+- We know of a fix but haven't implemented it yet. Sorry!

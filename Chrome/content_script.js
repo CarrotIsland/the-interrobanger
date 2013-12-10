@@ -15,8 +15,6 @@ function walk(node) {
     switch (node.nodeType) {
     case 1:
         // Element
-        console.log(node.value);
-        console.log(typeof node.value);
         if (typeof node.value !== 'undefined') {
             node.value = String(node.value).replace(/(((\?+!+)|(!+\?+))[\?!]*)+/g, "‽");
         }

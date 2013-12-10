@@ -1,8 +1,8 @@
 {
-  "manifest_version": 2,
-  "name": "The Interrobanger",
-  "version": "1.0",
-  "description": "Replaces '?!' and '!?' with an interrobang.",
+	"manifest_version": 2,
+	"name": "The Interrobanger",
+	"version": "1.1",
+	"description": "Replaces '?!' and '!?' with an interrobang.",
 	"content_scripts": 
 	[
 		{
@@ -11,7 +11,15 @@
 			"run_at": "document_end"
 		}
 	],
-  "browser_action": {
-    "default_icon": "icon.png"
-  }
+    "permissions": [
+    		"http://*/*",
+    		"https://*/*"
+    ],
+    "browser_action": {
+      "default_icon": "icon.png"
+    },
+    "icons":
+    {
+       "128": "icon.png"
+    }
 }

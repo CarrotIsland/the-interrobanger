@@ -1,0 +1,14 @@
+{
+  "name": "Interrobang",
+  "description": "Replaces '?!' and '!?' with an interrobang.",
+  "launch_path": "/index.html",
+  "icons": {
+    "64": "iconSmall.png",
+    "320": "icon.png"
+  },
+  "developer": {
+    "name": "Carrot Island",
+    "url": "http://carrotisland.nicklaroux.com"
+  },
+  "default_locale": "en"
+}

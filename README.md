@@ -29,5 +29,5 @@ Installation (Raw Files)
 
 Notice
 ------------
-- We are aware this extension will not replace punctation on pages that load dynamically, though AJAX.
+- We are aware this extension will not replace punctuation on pages that load dynamically, though AJAX.
 - We know of a fix but haven't implemented it yet. Sorry!

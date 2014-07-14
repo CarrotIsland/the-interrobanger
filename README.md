@@ -5,12 +5,21 @@ An interrobang is "A punctuation mark in the form of a question mark superimpose
 
 Cross-Browser extension that auto-replaces occurrences of '‽' and '‽' with an interrobang.
 
+Marketplaces
+------------
+- [Chrome Web Store](https://chrome.google.com/webstore/detail/the-interrobanger/ampcpkgcjfjmlfaiegpldidfdeedofph)
+- Mozilla Marketplace - Coming Soon
+- Opera Add-ons - Coming Soon
+- Safari Extensions - Coming Soon
+
+Raw Files
+------------
 - [Chrome](https://github.com/larouxn/the-interrobanger/blob/master/Chrome/Chrome.crx?raw=true)
 - [Firefox](https://github.com/larouxn/the-interrobanger/blob/master/Firefox/Firefox.xpi?raw=true)
 - [Opera](https://github.com/larouxn/the-interrobanger/blob/master/Opera/Opera.nex?raw=true)
-- [Safari](https://github.com/larouxn/the-interrobanger/blob/master/Safari/Safari.safariextz?raw=true)
+- [Safari](https://github.com/larouxn/the-interrobanger/blob/master/Safari/Safari.safariextz?raw=true) 
 
-Installation
+Installation (Raw Files)
 ------------
 
 - In Chrome, choose Window > Extensions. Drag Chrome.crx into the page that appears.
@@ -21,5 +30,4 @@ Installation
 Notice
 ------------
 - We are aware this extension will not replace punctation on pages that load dynamically, though AJAX.
-- It will only work correctly on static pages.
 - We know of a fix but haven't implemented it yet. Sorry!

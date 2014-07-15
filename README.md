@@ -3,12 +3,12 @@ The Interrobanger
 An interrobang is "A punctuation mark in the form of a question mark superimposed on an exclamation point, used to end a simultaneous question and exclamation." - 
 [The Free Dictionary](http://www.thefreedictionary.com/interrobang)
 
-Cross-Browser extension that auto-replaces occurrences of '‽' and '‽' with an interrobang.
+Cross-Browser extension that auto-replaces occurrences of '!?' and '?!' with an interrobang.
 
 Marketplaces
 ------------
 - [Chrome Web Store](https://chrome.google.com/webstore/detail/the-interrobanger/ampcpkgcjfjmlfaiegpldidfdeedofph)
-- Mozilla Marketplace - Coming Soon
+- [Mozilla Marketplace](https://addons.mozilla.org/en-US/firefox/addon/the-interrobanger/)
 - Opera Add-ons - Coming Soon
 - Safari Extensions - Coming Soon
 

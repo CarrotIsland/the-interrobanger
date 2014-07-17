@@ -9,7 +9,7 @@ Marketplaces
 ------------
 - [Chrome Web Store](https://chrome.google.com/webstore/detail/the-interrobanger/ampcpkgcjfjmlfaiegpldidfdeedofph)
 - [Mozilla Marketplace](https://addons.mozilla.org/en-US/firefox/addon/the-interrobanger/)
-- Opera Add-ons - Coming Soon
+- [Opera Addons](https://addons.opera.com/en/extensions/details/the-interrobanger/)
 - Safari Extensions - Coming Soon
 
 Raw Files
